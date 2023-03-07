@@ -1,0 +1,88 @@
+
+
+
+
+section h3{
+
+font-size: 3rem;
+}
+ 
+
+
+
+
+
+.img-caption{
+
+
+    top: 0;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+
+    background-color:rgba(242, 84, 84, 0.85); ;
+    transition: all 0.3s;
+    opacity: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.member:hover h5{
+    color: rgb(242, 84, 84 );
+    /* color: aqua; */
+    background-color: aliceblue;
+}
+
+.img-caption:hover {
+    left: 0;
+    bottom: 54px;
+    opacity: 4;
+    transform: translateY(0);
+    overflow: hidden;
+
+    
+}  
+
+
+.button{
+    background-color:#f25454 ;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 0;
+}
+
+
+.icons{
+
+color: #f25454;
+
+}
+
+
+
+
+
+
+
+
+
+.carousel-slide.carousel-indicators-[data-bs-target]{
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    
+
+}
+
+
+
+
+
+.carousel-indicators-[data-bs-target] {
+    
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    
+}
+
